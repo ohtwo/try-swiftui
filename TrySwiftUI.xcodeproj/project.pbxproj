@@ -16,6 +16,7 @@
 		49CAF2E52B53D1E70067C2A6 /* TrySwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAF2E42B53D1E70067C2A6 /* TrySwiftUIUITestsLaunchTests.swift */; };
 		49CAF2F22B53F2980067C2A6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAF2F12B53F2980067C2A6 /* CircleImage.swift */; };
 		49CAF2F42B53F4920067C2A6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAF2F32B53F4920067C2A6 /* MapView.swift */; };
+		49CAF2F62B53FE790067C2A6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 49CAF2F52B53FE790067C2A6 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		49CAF2E42B53D1E70067C2A6 /* TrySwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49CAF2F12B53F2980067C2A6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		49CAF2F32B53F4920067C2A6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		49CAF2F52B53FE790067C2A6 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				49CAF2F12B53F2980067C2A6 /* CircleImage.swift */,
 				49CAF2F32B53F4920067C2A6 /* MapView.swift */,
 				49CAF2CB2B53D1E70067C2A6 /* Assets.xcassets */,
+				49CAF2F52B53FE790067C2A6 /* landmarkData.json */,
 				49CAF2CD2B53D1E70067C2A6 /* Preview Content */,
 			);
 			path = TrySwiftUI;
@@ -239,6 +242,7 @@
 			files = (
 				49CAF2CF2B53D1E70067C2A6 /* Preview Assets.xcassets in Resources */,
 				49CAF2CC2B53D1E70067C2A6 /* Assets.xcassets in Resources */,
+				49CAF2F62B53FE790067C2A6 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
