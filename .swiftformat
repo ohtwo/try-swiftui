@@ -1,0 +1,15 @@
+# file options
+
+--exclude Pods
+
+# format options
+
+--swiftversion 5.9
+--indent 2
+--ifdef no-indent
+--trimwhitespace always
+
+# rules
+--disable all
+--enable indent
+--enable trailingSpace
