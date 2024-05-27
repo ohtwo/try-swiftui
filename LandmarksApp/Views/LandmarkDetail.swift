@@ -46,6 +46,6 @@ struct LandmarkDetail: View {
 
 #Preview {
   NavigationStack {
-    LandmarkDetail(landmark: Landmark.landmarks[0])
+    LandmarkDetail(landmark: ModelData().landmarks[0])
   }
 }
