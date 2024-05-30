@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4916267D2C094629007C6A77 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916267C2C094629007C6A77 /* CategoryHome.swift */; };
 		49CAF2C82B53D1E50067C2A6 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAF2C72B53D1E50067C2A6 /* LandmarksApp.swift */; };
 		49CAF2CA2B53D1E50067C2A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAF2C92B53D1E50067C2A6 /* ContentView.swift */; };
 		49CAF2CC2B53D1E70067C2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CAF2CB2B53D1E70067C2A6 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4916267C2C094629007C6A77 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		49CAF2C42B53D1E50067C2A6 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CAF2C72B53D1E50067C2A6 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		49CAF2C92B53D1E50067C2A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4916267B2C09460F007C6A77 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4916267C2C094629007C6A77 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		49BC2F0C2C0491EA00FB9231 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				49CAF2C92B53D1E50067C2A6 /* ContentView.swift */,
+				4916267B2C09460F007C6A77 /* Categories */,
 				49E70B9C2C07F00400AA1DC7 /* Hikes */,
 				49BC2F0C2C0491EA00FB9231 /* Landmarks */,
 				49BC2F0D2C0491FC00FB9231 /* Helpers */,
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CAF2CA2B53D1E50067C2A6 /* ContentView.swift in Sources */,
+				4916267D2C094629007C6A77 /* CategoryHome.swift in Sources */,
 				49D776812C054654005B2161 /* Badge.swift in Sources */,
 				49CAF2F42B53F4920067C2A6 /* MapView.swift in Sources */,
 				49E70B9D2C07F00400AA1DC7 /* GraphCapsule.swift in Sources */,
