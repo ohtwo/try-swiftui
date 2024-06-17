@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4907771B2C20F90200C791BD /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907771A2C20F90200C791BD /* PageControl.swift */; };
 		4916267D2C094629007C6A77 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916267C2C094629007C6A77 /* CategoryHome.swift */; };
 		493BC3AC2C19109A00C324C3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493BC3AB2C19109A00C324C3 /* PageViewController.swift */; };
 		493BC3AE2C19148200C324C3 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493BC3AD2C19148200C324C3 /* FeatureCard.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4907771A2C20F90200C791BD /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		4916267C2C094629007C6A77 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		493BC3AB2C19109A00C324C3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		493BC3AD2C19148200C324C3 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
@@ -107,9 +109,10 @@
 		493BC3AA2C19106000C324C3 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				493BC3AB2C19109A00C324C3 /* PageViewController.swift */,
 				493BC3AD2C19148200C324C3 /* FeatureCard.swift */,
+				4907771A2C20F90200C791BD /* PageControl.swift */,
 				493BC3AF2C19171B00C324C3 /* PageView.swift */,
+				493BC3AB2C19109A00C324C3 /* PageViewController.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				49E70B9D2C07F00400AA1DC7 /* GraphCapsule.swift in Sources */,
 				49E70B9F2C07F00400AA1DC7 /* HikeGraph.swift in Sources */,
 				49CAF2C82B53D1E50067C2A6 /* LandmarksApp.swift in Sources */,
+				4907771B2C20F90200C791BD /* PageControl.swift in Sources */,
 				49DF053B2C048CAE0087AE8C /* FavoriteButton.swift in Sources */,
 				49D05C7B2C0E802400DE8320 /* CategoryItem.swift in Sources */,
 				49D776792C05377D005B2161 /* HexagonParameters.swift in Sources */,
