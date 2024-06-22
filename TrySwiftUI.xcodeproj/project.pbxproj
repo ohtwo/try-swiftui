@@ -128,6 +128,7 @@
 		49E7A2302C224C2E003686FE /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		49E7A2322C2252DB003686FE /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		49E7A2342C2253F8003686FE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		49ECFE862C26A2D500990469 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		49EDBCA22C17B82D00170E7F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		49EDBCA42C17B8EF00170E7F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		49EDBCA62C17B9E900170E7F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 				49E7A2302C224C2E003686FE /* LandmarkDetail.swift */,
 				49E7A2322C2252DB003686FE /* NotificationView.swift */,
 				49E7A2342C2253F8003686FE /* NotificationController.swift */,
+				49ECFE862C26A2D500990469 /* PushNotificationPayload.apns */,
 				4907773C2C2101F000C791BD /* Assets.xcassets */,
 				4907773E2C2101F000C791BD /* Preview Content */,
 			);
