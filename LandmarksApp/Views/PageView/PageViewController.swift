@@ -37,6 +37,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
   class Coordinator: NSObject, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     var parent: PageViewController
     var controllers: [UIViewController] = []
+    var pageCount: Int { controllers.count }
 
     init(_ pageVC: PageViewController) {
       self.parent = pageVC
@@ -47,7 +48,9 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
       _ pageViewController: UIPageViewController,
       viewControllerBefore viewController: UIViewController
     ) -> UIViewController? {
-      guard let index = controllers.firstIndex(of: viewController) else { return nil }
+      guard pageCount > 1,
+            let index = controllers.firstIndex(of: viewController)
+      else { return nil }
 
       if index == 0 {
         return controllers.last
@@ -59,7 +62,9 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
       _ pageViewController: UIPageViewController,
       viewControllerAfter viewController: UIViewController
     ) -> UIViewController? {
-      guard let index = controllers.firstIndex(of: viewController) else { return nil }
+      guard pageCount > 1,
+            let index = controllers.firstIndex(of: viewController)
+      else { return nil }
 
       if index + 1 == controllers.endIndex {
         return controllers.first
